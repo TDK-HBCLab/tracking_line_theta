@@ -11,6 +11,6 @@ $git clone https://github.com/TDK-HBCLab/tracking_line_theta.git
 
 $cd /tracking_line_theta/image
 
-$make  //compile
+$make 
 
-$./image  //execute
+$./image  
