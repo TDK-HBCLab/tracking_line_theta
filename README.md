@@ -3,13 +3,16 @@ I use two roi image to find contour. The image was converted to gray image, so i
 
 
 
-You want to compile this code and execute, you can following step: 
 
-$cd /your_workspace/  
+You want to compile this code and execute, you can following step:  
 
 $git clone https://github.com/TDK-HBCLab/tracking_line_theta.git
 
 $cd tracking_line_theta/image
+
+$rm -rf CMakeCache.txt
+
+$cmake .
 
 $make 
 
